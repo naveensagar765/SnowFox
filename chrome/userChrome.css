@@ -1,0 +1,207 @@
+@font-face {
+    font-family: Nova;
+    src: url("./fonts/NovaMono-Regular.ttf");
+}
+
+* {
+    font-family: Nova !important;
+}
+
+#navigator-toolbox {
+    border-radius: 20px 5px 5px 20px;
+    overflow: hidden;
+}
+
+.browser-toolbar {
+    color: #2965ff !important;
+}
+
+.tab-background:is([selected]) {
+    background: rgb(36,248,255);
+background: radial-gradient(circle, rgba(36,248,255,0.8) 0%, rgba(49,170,255,0.8) 100%); 
+    color: white !important;
+    font-weight: bolder !important;
+}
+
+.tabbrowser-tab:not([selected]) {
+    display: block;
+    color: white !important;
+    font-weight: bold;
+    opacity: 0.7;
+    transition: opacity 0.2s ease-in-out;
+    max-width: 20px !important;
+    border: 0px 1px 0px 1px solid black !important;
+}
+
+.tabbrowser-tab:is([selected]) {
+    opacity: 1;
+    max-width: 180px !important;
+    font-weight: bold;
+    padding-top: 2px !important;
+    font-family: Nova;
+    color: white !important;
+}
+
+.tab-content:is([selected]) {
+    border-top: 2px solid blue !important;
+}
+
+.tabbrowser-tab:hover {
+    opacity: 1 !important;
+    color: black;
+}
+
+#urlbar-background {
+    background-color: #10182b !important;
+}
+
+#urlbar-container {
+    font-family: Nova;
+    font-weight: 600;
+}
+
+
+#PersonalToolbar {
+    display: flex !important;
+    position: absolute;
+    margin-left: 5px !important;
+    margin-top: 4px !important;
+    margin-bottom: 4px !important;
+    margin-right: 10px !important;
+    bottom: 0;
+    left: 0;
+    width: 50px;
+    max-height: 95vh !important;
+    min-height: 99vh !important;
+    z-index: 1;
+    overflow: auto;
+    border-radius: 30px;
+    background-color: transparent !important;
+    box-shadow: 0 0.3px 2px rgb(33, 255, 255) !important;
+    backdrop-filter: blur(15px) !important;
+    
+}
+
+#personal-bookmarks {
+    padding-top: 10px;
+    padding-bottom: 10px;   
+    overflow: auto;
+}
+
+#personal-bookmarks .bookmark-item label{
+    display: none !important;
+}
+
+toolbarbutton.bookmark-item:hover{
+ 
+    background: transparent !important;
+    border-radius: 20px !important;
+    box-shadow: 0 0.9px 2px rgb(33, 255, 255) !important;
+}
+
+
+.bookmark-item .toolbarbutton-icon{
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.titlebar-button {
+    width: 20px !important;
+    height: 20px !important;
+    align-self: center;
+}
+
+.titlebar-buttonbox{
+    margin-right: 15px
+}
+
+.toolbarbutton-1{
+    width: 20px !important;
+    height: 20px !important;
+    align-self: center;
+    margin-inline: 5px !important;
+}
+.titlebar-buttonbox .titlebar-close{
+    background: rgb(255,0,105);
+    background: radial-gradient(circle, rgba(255,0,105,1) 0%, rgba(168,0,0,1) 100%);
+    box-shadow: 0 0 10px 5px rgba(255,169,0,0.7);
+    
+}
+
+.titlebar-buttonbox .titlebar-min {
+    background: rgb(255,169,0);
+    background: radial-gradient(circle, rgba(255,169,0,1) 0%, rgba(255,251,34,1) 100%);
+    box-shadow: 0 0 10px 5px rgba(255,169,0,0.7);
+}
+
+.titlebar-buttonbox .titlebar-max {
+    background: rgb(31,168,43);
+    background: radial-gradient(circle, rgba(0,255,6,1) 0%, rgba(31,168,43,1) 100%);
+    box-shadow: 0 0 10px 5px rgba(31,168,43,0.7);
+}
+
+.titlebar-buttonbox .titlebar-restore {
+    background: rgb(31,168,43);
+    background: radial-gradient(circle, rgba(0,255,6,1) 0%, rgba(31,168,43,1) 100%);
+    box-shadow: 0 0 10px 5px rgba(31,168,43,0.7);
+}
+
+.titlebar-buttonbox > toolbarbutton{
+    width: 15px !important;
+    height: 15px !important;
+    margin-inline: 6px !important;
+    border-radius: 30px;
+    padding: none !important;
+}
+
+
+.titlebar-button .toolbarbutton-icon {
+    display: none;
+}
+
+.titlebar-button:hover .toolbarbutton-icon {
+    display: block !important;
+    color: blue !important;
+}
+
+#navigator-toolbox{
+    margin-left: 70px !important;
+    background: rgb(31,164,168) !important;
+    background: linear-gradient(90deg, rgba(31,164,168,.5) 0%, rgba(0,152,255,.5) 100%) !important;
+}
+
+#nav-bar{
+    background: rgb(44,218,224);
+    background: radial-gradient(circle, rgba(44,218,224,0.5) 0%, rgba(0,152,255,0.5) 100%); 
+}
+
+
+.titlebar-button{
+    padding: 0px !important;
+}
+
+#browser {
+    margin: 5px 5px 5px 70px !important;
+    box-shadow: 0 4px 50px 0 rgba(3, 188, 255, 0.3), 0 4px 50px 0 rgba(3, 11, 255, 0.3) !important;
+
+}
+
+#main-window{
+    background: url("./assets/4973.jpg") ;
+    filter: blur(15px) !important;
+}
+
+#PlacesToolbar{
+    flex-direction: column !important;
+}
+
+#PlacesToolbar #PlacesToolbarItems{
+    overflow: auto !important;
+    display: -webkit-box !important;
+    -webkit-box-orient: vertical !important;
+}
+
+.bookmark-item[container]{
+    list-style-image: url("./assets/folder.png") !important;
+ 
+}
