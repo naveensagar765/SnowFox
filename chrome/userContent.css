@@ -87,6 +87,7 @@
 /*         background: rgb(33, 255, 255, .2)  !important; */
         
         scale: 1.4;
+        margin-inline: 10px !important;
 
     }
 
@@ -118,14 +119,21 @@
     bottom: -5px;
     z-index: -1;
     border-radius: inherit;
-    background: radial-gradient(circle, rgba(36,248,255,0.2) 0%, rgba(49,170,255,0.2) 100%);
 }
  .rich-icon{
     border-radius: 100px !important;
 }
 
-.ds-card{
+.ds-card .meta{
     box-shadow: 0 2px 6px rgba(21, 191, 243, 0.8) !important;
-    background: transparent !important;
     backdrop-filter: blur(125px);
+}
+
+.ds-card{
+    background: transparent !important;
+    
+}
+
+.top-site-outer .context-menu-button{
+    top: -1px !important;
 }
