@@ -1,0 +1,131 @@
+/* userContent.css */
+
+@font-face {
+    font-family: Nova;
+    src: url('./fonts/NovaMono-Regular.ttf');
+}
+
+@-moz-document url("about:newtab"), url("about:home") {
+    body {
+        background: url("./assets/background.jpg") no-repeat fixed center center !important;
+        background-size: cover !important;
+        font-family: Nova !important;
+    }
+
+    main {
+        border-radius: 25px;
+        color: #61dafb;
+        backdrop-filter: blur(15px);
+        width: 70vw !important;
+        height: 80vh;
+        align-self: center !important;
+        box-shadow: 0 4px 20px 0 rgba(3, 188, 255, 0.3), 0 4px 20px 0 rgba(3, 11, 255, 0.3);
+
+    }
+
+    .top-site-outer .title {
+        font-family: Nova !important;
+        font-size: 28px;
+        text-transform: uppercase;
+    }
+
+    .logo {
+        background: image-set(url("./assets/firefox.png"), url("./assets/firefox.png") 2x) no-repeat center !important;
+        background-size: cover !important;
+    }
+
+    @media screen and (max-width: 1200px) {
+        main {
+            height: fit-content !important;
+        }
+
+        .search-wrapper .search-inner-wrapper {
+            width: 399px;
+        }
+    }
+    .top-site-outer{
+        width: 103px ;
+    }
+    .collapsible-section.ds-layout {
+        position: absolute !important;
+        margin-top: 7%;
+    }
+    .search-wrapper input {
+        background: url('./assets/icons8-search-64.png') 16px center no-repeat !important;
+        background-size: 20px !important;
+        filter: brightness(600%);
+        box-shadow: 0 0.3px 2px rgb(33, 255, 255) !important;
+        color: #61dafb !important;
+    }
+
+    #searchSubmit {
+        background: url("./assets/icons8-forward-64.png") no-repeat center center !important;
+        background-size: 20px !important;
+
+    }
+
+
+    a {
+        color: #61dafb !important;
+    }
+
+    .snippet-container {
+        display: none;
+    }
+
+    .top-site-outer .tile {
+        background-color: transparent !important;
+        box-shadow: 0 1px 6px rgb(33, 255, 255),0 0.5px 2px rgb(33, 255, 255) !important;
+
+    }
+    .top-site-outer{
+        transition: all ease-in-out 1ms;
+        border-radius: 500px !important;
+    }
+    .top-site-outer:hover{
+        background: transparent !important;
+/*         background: rgb(33, 255, 255, .2)  !important; */
+        
+        scale: 1.4;
+
+    }
+
+    .top-site-outer .top-site-icon{
+        background-color: transparent !important;
+        backdrop-filter: blur(15px);
+    }
+    .icon.icon-pin-small{
+        display: none !important;
+    }
+}
+.search-wrapper .logo-and-wordmark .wordmark{
+    fill: #61dafb !important;
+}
+
+.top-site-outer .tile {
+    position: relative;
+    border-radius: 200px !important; 
+    overflow: hidden; 
+    
+}
+
+.top-site-outer .tile::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    z-index: -1;
+    border-radius: inherit;
+    background: radial-gradient(circle, rgba(36,248,255,0.2) 0%, rgba(49,170,255,0.2) 100%);
+}
+ .rich-icon{
+    border-radius: 100px !important;
+}
+
+.ds-card{
+    box-shadow: 0 2px 6px rgba(21, 191, 243, 0.8) !important;
+    background: transparent !important;
+    backdrop-filter: blur(125px);
+}
