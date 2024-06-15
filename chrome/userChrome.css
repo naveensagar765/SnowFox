@@ -92,8 +92,15 @@ background: radial-gradient(circle, rgba(36,248,255,0.8) 0%, rgba(49,170,255,0.8
     display: none !important;
 }
 
-toolbarbutton.bookmark-item:hover{
- 
+#personal-bookmarks .bookmark-item[open="true"] label {
+    display: inline !important;
+}
+
+toolbarbutton.bookmark-item:not(.subviewbutton)[open="true"] label {
+    display: inline !important;
+}
+
+toolbarbutton.bookmark-item:hover{ 
     background: transparent !important;
     border-radius: 20px !important;
     box-shadow: 0 0.9px 2px rgb(33, 255, 255) !important;
@@ -203,5 +210,4 @@ toolbarbutton.bookmark-item:hover{
 
 .bookmark-item[container]{
     list-style-image: url("./assets/folder.png") !important;
- 
 }
