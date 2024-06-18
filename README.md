@@ -13,6 +13,7 @@ A Stunning Frosty, Glassy Blue Theme for Firefox
 
 ## Installation
 
-Developed by Naveen Sagar. Visit my YouTube channel: [@NaveenSagar1](https://youtube.com/@NaveenSagar1)
+[![Installation Process](https://img.youtube.com/vi/9C6RClGMFYU/0.jpg)](https://www.youtube.com/watch?v=9C6RClGMFYU)
 
+Developed by Naveen Sagar. Visit my YouTube channel: [@NaveenSagar1](https://youtube.com/@NaveenSagar1)
 
