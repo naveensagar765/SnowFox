@@ -2,7 +2,7 @@
 
 A Stunning Frosty, Glassy Blue Theme for Firefox
 
-![SnowFox Preview](./preview/preview.png)
+![SnowFox Preview](./preview.png)
 
 ## Features
 
