@@ -129,6 +129,7 @@ toolbarbutton.bookmark-item:hover{
     margin-inline: 5px !important;
 }
 .titlebar-buttonbox .titlebar-close{
+    visibility: visible !important;
     background: rgb(255,0,105);
     background: radial-gradient(circle, rgba(255,0,105,1) 0%, rgba(168,0,0,1) 100%);
     box-shadow: 0 0 10px 5px rgba(255,169,0,0.7);
@@ -136,18 +137,21 @@ toolbarbutton.bookmark-item:hover{
 }
 
 .titlebar-buttonbox .titlebar-min {
+    visibility: visible !important;
     background: rgb(255,169,0);
     background: radial-gradient(circle, rgba(255,169,0,1) 0%, rgba(255,251,34,1) 100%);
     box-shadow: 0 0 10px 5px rgba(255,169,0,0.7);
 }
 
 .titlebar-buttonbox .titlebar-max {
+    visibility: visible !important;
     background: rgb(31,168,43);
     background: radial-gradient(circle, rgba(0,255,6,1) 0%, rgba(31,168,43,1) 100%);
     box-shadow: 0 0 10px 5px rgba(31,168,43,0.7);
 }
 
 .titlebar-buttonbox .titlebar-restore {
+    visibility: visible !important;
     background: rgb(31,168,43);
     background: radial-gradient(circle, rgba(0,255,6,1) 0%, rgba(31,168,43,1) 100%);
     box-shadow: 0 0 10px 5px rgba(31,168,43,0.7);
