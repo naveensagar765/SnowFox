@@ -1,3 +1,4 @@
+# ⚠️ After the latest Firefox update, this theme is not working as expected.
 # **SnowFox**
 
 A Stunning Frosty, Glassy Blue Theme for Firefox
